@@ -38,7 +38,7 @@ function searchMeal(a) {
       });
     search.value = '';
   } else {
-    alert('Please enter a search term');
+    alert('Please enter a search item');
   }
 }
 
