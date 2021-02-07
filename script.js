@@ -69,7 +69,7 @@ function getRandomMeal() {
 function addMealToDOM(meal) {
   const ingredients = [];
 
-  for (let i = 1; i <= 20; i++) {
+  for (let i = 1; i <= 12; i++) {
     if (meal[`strIngredient${i}`]) {
       ingredients.push(
         `${meal[`strIngredient${i}`]} - ${meal[`strMeasure${i}`]}`

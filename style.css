@@ -109,17 +109,11 @@ input[type='text'] {
   border-radius: 2px;
 }
 
-.single-meal-info {
-  margin: 20px;
-  padding: 10px;
-  border: 2px #e09850 dashed;
-  border-radius: 5px;
-}
-
 .single-meal p {
   margin: o;
   letter-spacing: 0.5px;
   line-height: 1.5;
+  display: none;
 }
 
 .single-meal ul {
@@ -131,7 +125,6 @@ input[type='text'] {
   border: 1px solid #ededed;
   border-radius: 5px;
   background-color: #fff;
-  display: inline-block;
   color: #2d2013;
   font-size: 12px;
   font-weight: bold;
